@@ -1,0 +1,32 @@
+name: Mirroring 280blocker filters
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  Backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Get next month
+      - name: Get next month
+        run: echo ::set-env name=NEXT_MONTH::$(date "+%Y%m" -d "1 month")
+
+      # Download next month 280blocker filters
+      - name: Download next month 280blocker filters
+        run: |
+          wget --no-check-certificate https://280blocker.net/files/280blocker_adblock_${{ env.NEXT_MONTH }}.txt -O 280blocker_adblock.txt
+          wget --no-check-certificate https://280blocker.net/files/280blocker_domain_${{ env.NEXT_MONTH }}.txt -O 280blocker_domain.txt
+          wget --no-check-certificate https://280blocker.net/files/280blocker_domain_ag_${{ env.NEXT_MONTH }}.txt -O 280blocker_domain_ag.txt
+
+      # Push download filters
+      - name: Push download filters
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: ミラーリング
