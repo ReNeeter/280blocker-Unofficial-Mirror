@@ -10,4 +10,5 @@
 - [280blocker_adblock_xxxxxx.txtのミラー](https://raw.githubusercontent.com/ReNeeter/280blocker-Unofficial-Mirror/main/280blocker_adblock.txt)
 - [280blocker_1blocker_xxxxxx.1blockpkgのミラー](https://raw.githubusercontent.com/ReNeeter/280blocker-Unofficial-Mirror/main/280blocker_1blocker.1blockpkg)
 - [280blocker_domain_xxxxxx.txtのミラー](https://raw.githubusercontent.com/ReNeeter/280blocker-Unofficial-Mirror/main/280blocker_domain.txt)
+- [280blocker_domain_xxxxxx.zipのミラー](https://raw.githubusercontent.com/ReNeeter/280blocker-Unofficial-Mirror/main/280blocker_domain.zip)
 - [280blocker_domain_ag_xxxxxx.txtのミラー](https://raw.githubusercontent.com/ReNeeter/280blocker-Unofficial-Mirror/main/280blocker_domain_ag.txt)

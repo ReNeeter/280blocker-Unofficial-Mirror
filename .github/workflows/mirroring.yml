@@ -18,12 +18,13 @@ jobs:
       - name: Get year and month
         run: echo ::set-env name=YEAR_AND_MONTH::$(date "+%Y%m")
 
-      # Download next month 280blocker filters
-      - name: Download next month 280blocker filters
+      # Download 280blocker filters
+      - name: Download 280blocker filters
         run: |
           wget --no-check-certificate https://280blocker.net/files/280blocker_adblock_${{ env.YEAR_AND_MONTH }}.txt -O 280blocker_adblock.txt
           wget --no-check-certificate https://280blocker.net/files/280blocker_1blocker_${{ env.YEAR_AND_MONTH }}.1blockpkg -O 280blocker_1blocker.1blockpkg
           wget --no-check-certificate https://280blocker.net/files/280blocker_domain_${{ env.YEAR_AND_MONTH }}.txt -O 280blocker_domain.txt
+          wget --no-check-certificate https://280blocker.net/files/280blocker_domain_${{ env.YEAR_AND_MONTH }}.zip -O 280blocker_domain.zip
           wget --no-check-certificate https://280blocker.net/files/280blocker_domain_ag_${{ env.YEAR_AND_MONTH }}.txt -O 280blocker_domain_ag.txt
 
       # Push download filters
