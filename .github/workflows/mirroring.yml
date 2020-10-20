@@ -14,19 +14,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Get next month
-      - name: Get next month
-        run: echo ::set-env name=NEXT_MONTH::$(date "+%Y%m" -d "1 month")
+      # Get year and month
+      - name: Get year and month
+        run: echo ::set-env name=YEAR_AND_MONTH::$(date "+%Y%m")
 
       # Download next month 280blocker filters
       - name: Download next month 280blocker filters
         run: |
-          wget --no-check-certificate https://280blocker.net/files/280blocker_adblock_${{ env.NEXT_MONTH }}.txt -O 280blocker_adblock.txt
-          wget --no-check-certificate https://280blocker.net/files/280blocker_domain_${{ env.NEXT_MONTH }}.txt -O 280blocker_domain.txt
-          wget --no-check-certificate https://280blocker.net/files/280blocker_domain_ag_${{ env.NEXT_MONTH }}.txt -O 280blocker_domain_ag.txt
+          wget --no-check-certificate https://280blocker.net/files/280blocker_adblock_${{ env.YEAR_AND_MONTH }}.txt -O 280blocker_adblock.txt
+          wget --no-check-certificate https://280blocker.net/files/280blocker_1blocker_${{ env.YEAR_AND_MONTH }}.1blockpkg -O 280blocker_1blocker.1blockpkg
+          wget --no-check-certificate https://280blocker.net/files/280blocker_domain_${{ env.YEAR_AND_MONTH }}.txt -O 280blocker_domain.txt
+          wget --no-check-certificate https://280blocker.net/files/280blocker_domain_ag_${{ env.YEAR_AND_MONTH }}.txt -O 280blocker_domain_ag.txt
 
       # Push download filters
       - name: Push download filters
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: ミラーリング
+          commit_message: ミラーを更新
