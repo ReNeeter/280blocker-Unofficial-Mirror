@@ -12,3 +12,8 @@
 - [280blocker_domain_xxxxxx.txtのミラー](https://raw.githubusercontent.com/ReNeeter/280blocker-Unofficial-Mirror/main/280blocker_domain.txt)
 - [280blocker_domain_xxxxxx.zipのミラー](https://raw.githubusercontent.com/ReNeeter/280blocker-Unofficial-Mirror/main/280blocker_domain.zip)
 - [280blocker_domain_ag_xxxxxx.txtのミラー](https://raw.githubusercontent.com/ReNeeter/280blocker-Unofficial-Mirror/main/280blocker_domain_ag.txt)
+
+## ライセンス
+
+ミラーリングしているフィルターには、**CC BY-NC-ND 4.0**が適用されます。  
+このリポジトリ自体（「.github」ディレクトリ等）には、**MIT License**が適用されます。
