@@ -15,5 +15,5 @@
 
 ## ライセンス
 
-ミラーリングしているフィルターには、**CC BY-NC-ND 4.0**が適用されます。  
-このリポジトリ自体（「.github」ディレクトリ等）には、**MIT License**が適用されます。
+ミラーリングしているフィルターには、[LICENSE-mirror-filters.md](LICENSE-mirror-filters.md)が適用されます。  
+このリポジトリ自体（「.github」ディレクトリ等）には、[LICENSE-repo.md](LICENSE-repo.md)が適用されます。
