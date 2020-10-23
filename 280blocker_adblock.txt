@@ -1,7 +1,11 @@
 [Adblock Plus 2.0]
-! Title: 280blocker for japanese mobile site
+! Title: 280blocker adblock filter
 ! Homepage: https://280blocker.net
-! Licence: CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/)
+!
+! Licence: 
+! This file is only permitted for personal use under copyright law.
+! Commercial use or  redistribution are prohibited except as permitted by copyright law.
+!
 ! Last updated: 2020-10-14
 ##.blocker280-20201014
 

@@ -1,7 +1,9 @@
-﻿# 280blocker adblock domain lists （)
+﻿# 280blocker domain filter（)
 # 
 # Homepage: https://280blocker.net
-# Licence: CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/)
+# Copyright :280blocker
+# This file is only permitted for personal use under copyright law.
+# Commercial use or redistribution are prohibited except as permitted by copyright law.
 # 
 # It's created for Japanese user of domain block.
 # Subdomain is not described. 

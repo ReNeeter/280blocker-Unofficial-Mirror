@@ -1,7 +1,9 @@
-﻿# 280blocker adblock domain lists （AdGuard_format)
+﻿# 280blocker domain filter（AdGuard_format)
 # 
 # Homepage: https://280blocker.net
-# Licence: CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/)
+# Copyright :280blocker
+# This file is only permitted for personal use under copyright law.
+# Commercial use or redistribution are prohibited except as permitted by copyright law.
 # 
 # It's created for Japanese user of domain block.
 # Subdomain is not described. 
@@ -360,7 +362,7 @@
 ||glam.com^
 ||global.msmtrakk06d.com^
 ||glossom.co.jp^
-||adcorsa.glossom.jp
+||adcorsa.glossom.jp^
 ||glssp.jp^
 ||glssp.net^
 ||gmossp-sp.jp^
@@ -1045,11 +1047,11 @@
 ||cdn-f.adsmoloco.com^
 ||cdn-gcs.outfit7.com^
 ||cdn.byplay.net^
-||cdn.liftoff.io
+||cdn.liftoff.io^
 ||cdn.neppa-adsv.com^
 ||cdn.outfit7.com^
 ||cdn.tpdads.com^
-||cdn1.inner-active.mobi
+||cdn1.inner-active.mobi^
 ||cdnprism.pandora.tv^
 ||cdp.cloud.unity3d.com^
 ||clfvfumqqok.com^
@@ -1094,7 +1096,7 @@
 ||highsecureus.com^
 ||hyperpromote.com^
 ||img.gs-ad.jp^
-||impression-east.liftoff.io
+||impression-east.liftoff.io^
 ||infolinks.com^
 ||inpagepush.com^
 ||instantresp.com^
