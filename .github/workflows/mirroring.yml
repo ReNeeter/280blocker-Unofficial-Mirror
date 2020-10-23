@@ -25,6 +25,6 @@ jobs:
 
       # Push download filters
       - name: Push download filters
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v4.7.1
         with:
           commit_message: ミラーを更新
