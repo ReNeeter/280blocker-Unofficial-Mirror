@@ -21,8 +21,5 @@
 ## 重要なお知らせ
 
 280blockerのフィルターが再配布禁止になった事に伴い、このミラーは廃止されました。  
-以下の手順を実行して、個人でミラーを作成してください。
-
-### 手順
-
-Now Write…
+[TigerOka](https://github.com/TigerOka)氏が作成したリダイレクトURLをご使用ください。  
+<https://github.com/TigerOka/redirect_280blocker>
