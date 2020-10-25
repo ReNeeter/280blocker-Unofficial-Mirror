@@ -22,4 +22,4 @@
 
 280blockerのフィルターが再配布禁止になった事に伴い、このミラーは廃止されました。  
 [TigerOka](https://github.com/TigerOka)氏が作成したリダイレクトURLをご使用ください。  
-<https://github.com/TigerOka/redirect_280blocker>
+<https://tigeroka.github.io/redirect_280blocker/>
