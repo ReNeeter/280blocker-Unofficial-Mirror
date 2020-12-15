@@ -1,4 +1,4 @@
-# 280blocker-Unofficial-Mirror
+# 280blocker Unofficial Mirror
 
 ## 重要なお知らせ
 
