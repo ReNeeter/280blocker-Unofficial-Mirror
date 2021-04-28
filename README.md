@@ -1,6 +1,4 @@
 # 280blocker Unofficial Mirror
 
-## 重要なお知らせ
-
 280blockerのフィルターが再配布禁止になった事に伴い、このミラーは廃止されました。  
-リダイレクターを作成したり、**自己責任で**他人のリダイレクターを使用するなりしてください。
+[280blocker Redirecter](https://github.com/reneeter123/280blocker-redirecter)を使用してください。
